@@ -1,9 +1,10 @@
 {
   "expo": {
     "scheme": "myapp",
-    "name": "ai",
+    "name": "Object Detector",
     "slug": "ai",
     "version": "1.0.0",
+    "sdkVersion": "40.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -18,13 +19,17 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ikennau.ai",
+      "buildNumber": "1.0.0"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.ikennau.ai",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
